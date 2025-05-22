@@ -1,6 +1,6 @@
 div {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: column;
     background-color: red;
     width: 500px;
@@ -13,4 +13,6 @@ div {
 img {
     width: 100px;
     height: 80px;
+    margin: 10px;
+    border-radius: 60%;
 }
