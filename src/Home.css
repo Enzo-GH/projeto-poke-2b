@@ -1,13 +1,13 @@
 div {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-direction: row;
     background-color: red;
     width: 500px;
     height: 500px;
     justify-content: space-around;
     align-items: center;
-    overflow: auto;
+    overflow: scroll;
 }
 
 img {
