@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
-import Home from './Home'
-import PokeFlex from './PokeFlex'
+import Home from './Home.jsx'
+import PokeFlex from './PokeFlex.jsx'
+import PokeGrid from './PokeGrid.jsx'
 import Menu from './Menu'
 
 const App = () => {
